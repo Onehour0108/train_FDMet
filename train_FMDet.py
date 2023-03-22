@@ -89,7 +89,7 @@ def main():
     # if args.resume:
     #     optim.load_state_dict(checkpoint['optim_state_dict'])
 
-    trainer = torchfcn_.Trainer(
+    trainer = trainer.Trainer(
         cuda=cuda,
         model=model,
         optimizer=optimizer,

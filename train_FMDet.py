@@ -8,7 +8,7 @@ import os.path as osp
 import torch
 import yaml
 
-import trainer
+import trainer.Trainer
 
 import models.model
 import torch.optim as optim

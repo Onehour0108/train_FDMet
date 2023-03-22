@@ -8,9 +8,8 @@ import os.path as osp
 import torch
 import yaml
 
-import torchfcn_
-from train_fcn32s import get_parameters
-from train_fcn32s import git_hash
+import trainer
+
 import models.model
 import torch.optim as optim
 here = osp.dirname(osp.abspath(__file__))

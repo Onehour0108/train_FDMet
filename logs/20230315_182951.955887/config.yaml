@@ -1,0 +1,6 @@
+gpu: 0
+lr: 0.0003
+max_iteration: 1000000
+momentum: 0.99
+out: "/media/wanghao/wanghao/\u6709\u4E1D\u5206\u88C2\u68C0\u6D4B/\u4EE3\u7801/FMDet/examples/voc/logs/20230315_182951.955887"
+weight_decay: 0.0001
